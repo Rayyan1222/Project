@@ -85,8 +85,8 @@ img {
 #lion {
  display: block;
   margin: 20px auto;
-  width: 31.25em;
-  height: 18.75em;
+  width: 5em;
+  height: 5em;
   border-radius: 1em;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
   cursor: pointer;
