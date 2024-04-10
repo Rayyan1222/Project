@@ -74,7 +74,8 @@ nav ul li a:hover {
 }
 
 #tombrady1 {
-  float: left;
+  top: 10px
+  left: 10px
   margin-right: 2em; /* Adjust margin if needed */
   max-width: 180px;
   max-height: 200px;
@@ -89,7 +90,8 @@ nav ul li a:hover {
 }
 
 #goldfish {
-  float: right;
+  top: 10px
+  left: 10px
   margin-left: 2em; /* Adjust margin if needed */
   max-width: 180px;
   max-height: 200px;
