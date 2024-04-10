@@ -14,11 +14,25 @@ h1, h2, h3 {
   color: rgb(128, 0, 32);
 }
 
-.resume h1, .resume h2 {
+.Brady h1, .Brady h2 {
   text-align: left;
 }
 
-.resume p, .resume ul li {
+.Brady p, .Brady ul li {
+  text-align: left;
+}
+
+.animals h1, .animals h2 {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  text-align: center;
+  color: rgb(128, 0, 32);
+}
+
+.animals h2 {
+  text-align: left;
+}
+
+.animals p {
   text-align: left;
 }
 
@@ -40,7 +54,6 @@ nav ul {
   align-items: center;
   height: 50px;
 }
-
 
 nav ul li {
   display: inline;
@@ -64,7 +77,7 @@ nav ul li a:hover {
   padding: 20px;
 }
 
-.resume, .Brady, .animals {
+.Brady, .animals {
   background-color: #fff;
   padding: 20px;
   border-radius: 1em;
@@ -72,47 +85,21 @@ nav ul li a:hover {
   margin: 20px auto;
 }
 
-img {
+.Brady img, .animals img {
   display: block;
   margin: 20px auto;
-  width: 31.25em;
-  height: 18.75em;
+  width: 100%;
+  max-width: calc(50% - 20px); /* Ensures the image doesn't overlap with other content */
   border-radius: 1em;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
-.lion {
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  float: right;
-}
-
-.goldfish {
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  float: left;
-}
-
-.tombrady1 {
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  float: right;
-}
-
-.tombrady2 {
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  float: left;
+.Brady h1, .Brady h2, .animals h1, .animals h2 {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  text-align: center;
+  color: rgb(128, 0, 32);
 }
 
 img:hover {
@@ -165,7 +152,7 @@ iframe:hover {
     font-size: 20px;
   }
 
-  .resume h1, .resume h2 {
+  .Brady h1, .Brady h2, .animals h1, .animals h2 {
     font-size: 28px;
   }
 
